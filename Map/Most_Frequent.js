@@ -10,6 +10,8 @@ For example, if your string was: aaaaAAAA, your output would be: A 4, because A 
 */
 
 
+
+
 function mostFrequentDSA(text) {
    let mpp = new Map();
    for(let val of text){
