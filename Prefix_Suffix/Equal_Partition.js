@@ -29,3 +29,22 @@ function equalPartition(n, arr) {
   }
   return -1;
 }
+
+// Optimize
+function equalPartition(n, arr) {
+    let preSum = 0;
+    let suffSum = 0;
+    let totalSum = 0;
+    for(let val of arr){
+        totalSum += val;
+    }
+
+    for(let i = 0; i < n;i++){
+        suffSum = totalSum - preSum - arr[i];
+        if(suffSum === preSum){
+            return i;
+        }
+        preSum += arr[i];
+    }
+    return -1;
+}
