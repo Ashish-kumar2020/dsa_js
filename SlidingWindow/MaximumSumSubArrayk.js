@@ -7,7 +7,7 @@ function maximumSumSubArray(arr,k){
         sum += arr[j];
         if(j - i + 1 < k){
             j++;
-        }else if(j- i +1 === k){
+        }else if(j- i + 1 === k){
             maxSum = Math.max(sum,maxSum);
             sum = sum - arr[i]; // this wil remove the element from the sum of previos window
             i++;
