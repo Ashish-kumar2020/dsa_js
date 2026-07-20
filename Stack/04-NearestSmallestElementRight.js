@@ -29,7 +29,7 @@ function nextSmallestElementRightOptimize(arr,n){
                 st.pop();
             }
             if(st.length === 0) res.push(-1);
-            else res.push(st.length - 1);
+            else res.push(st[st.length - 1]);
         }
         st.push(arr[i]);
     }
