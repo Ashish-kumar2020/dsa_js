@@ -1,0 +1,1 @@
+onsole.log(head.LLTraversal(head));
