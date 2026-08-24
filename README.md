@@ -165,21 +165,3 @@ A structured collection of basic to intermediate Data Structures and Algorithms 
 * Find the shortest path in an unweighted graph
 
 ⸻
-
-🎯 Recommended Learning Order
-
-Follow the topics in this order:
-
-Arrays → Strings → Searching → Sorting → Hashing → Two Pointers & Sliding Window → Recursion → Stack → Queue → Linked List → Binary Trees → Graphs
-
-Goal
-
-Solve each problem first by yourself, then analyze:
-
-1. Approach
-2. Time Complexity
-3. Space Complexity
-4. Edge Cases
-5. JavaScript implementation
-
-Don’t just memorize solutions. The goal is to recognize the underlying pattern and choose the appropriate data structure or algorithm.
